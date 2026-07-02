@@ -1,27 +1,29 @@
-# MVP — Machine Learning & Analytics: Absenteeism at work
+# MVP — Previsão de Horas de Absenteísmo com Machine Learning
 
-Este repositório contém a base de dados utilizada no MVP de Machine Learning & Analytics para previsão da duração de ocorrências de absenteísmo no trabalho.
+Este repositório reúne os arquivos utilizados no MVP de Machine Learning & Analytics para previsão da duração de ocorrências de absenteísmo no trabalho.
 
-O objetivo do projeto é construir e avaliar modelos de regressão supervisionada capazes de estimar a variável Absenteeism time in hours, que representa a quantidade de horas de absenteísmo registrada em cada ocorrência.
-
-## Fonte original dos dados
-
-- **Dataset:** Absenteeism at work
-- **Fonte:** UCI Machine Learning Repository
-- **Link da fonte original:** https://archive.ics.uci.edu/dataset/445/absenteeism+at+work
-- **DOI:** https://doi.org/10.24432/C5X882
-- **Criadores:** Andrea Martiniano e Ricardo Ferreira
-- **Licença:** Creative Commons Attribution 4.0 International (CC BY 4.0)
+O objetivo do projeto é construir, avaliar e comparar modelos de regressão supervisionada capazes de estimar a variável `Absenteeism time in hours`, que representa a quantidade de horas de absenteísmo registrada em cada ocorrência.
 
 ## Arquivos do repositório
 
 | Arquivo | Descrição |
 |---|---|
-| `Absenteeism_at_work.csv` | Base principal utilizada no notebook do MVP |
-| `legenda_reason_for_absence.md` | Legenda da variável Reason for absence, com a descrição dos códigos de motivo de ausência |
-| `README.md` | Descrição geral do repositório, fonte dos dados e orientação de uso |
+| `MVP_ML_Mateus_Gonçalves.ipynb` | Notebook principal do MVP, contendo análise exploratória, pré-processamento, modelagem, avaliação e conclusão |
+| `Absenteeism_at_work.csv` | Base de dados utilizada no notebook |
+| `Legenda_reason_for_absence.md` | Documentação auxiliar com a legenda da variável `Reason for absence` |
+| `README.md` | Descrição geral do repositório e orientação de uso |
+
+## Fonte original dos dados
+
+- **Dataset:** Absenteeism at work
+- **Fonte:** UCI Machine Learning Repository
+- **Link:** https://archive.ics.uci.edu/dataset/445/absenteeism+at+work
+
+A base contém registros de absenteísmo no trabalho de uma empresa de courier no Brasil, referentes ao período de julho de 2007 a julho de 2010.
 
 ## Link raw para execução no Google Colab
 
-O arquivo CSV é carregado diretamente no notebook por meio do seguinte link raw:
+O notebook carrega o arquivo CSV diretamente a partir da URL pública abaixo:
+
+```text
 https://raw.githubusercontent.com/Mateus-SouzaG/mvp-ml-absenteismo/refs/heads/main/Absenteeism_at_work.csv
