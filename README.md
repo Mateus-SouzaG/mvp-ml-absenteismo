@@ -23,5 +23,5 @@ O objetivo do projeto é construir e avaliar modelos de regressão supervisionad
 
 ## Link raw para execução no Google Colab
 
-O arquivo CSV é carregado diretamente no notebook por meio do link raw abaixo:
+O arquivo CSV é carregado diretamente no notebook por meio do seguinte link raw:
 https://raw.githubusercontent.com/Mateus-SouzaG/mvp-ml-absenteismo/refs/heads/main/Absenteeism_at_work.csv
