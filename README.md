@@ -23,7 +23,4 @@ A base contém registros de absenteísmo no trabalho de uma empresa de courier n
 
 ## Link raw para execução no Google Colab
 
-O notebook carrega o arquivo CSV diretamente a partir da URL pública abaixo:
-
-```text
-https://raw.githubusercontent.com/Mateus-SouzaG/mvp-ml-absenteismo/refs/heads/main/Absenteeism_at_work.csv
+O notebook carrega o arquivo CSV diretamente a partir da seguinte URL pública: https://raw.githubusercontent.com/Mateus-SouzaG/mvp-ml-absenteismo/refs/heads/main/Absenteeism_at_work.csv
